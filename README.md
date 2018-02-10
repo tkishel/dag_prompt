@@ -17,11 +17,13 @@ On OSX:
 1. Open `Terminal`
 1. Select `Preferences` from the `File` menu
 1. Select `Profiles`
-1. Create a new profile
+1. Create a new Profile
 1. Select `Text`
 1. Set `Font` to `Puppet Andale Mono Regular`
 1. Select `Shell`
-1. Set `Run command` to `export PS1='\342\204\226 '`
-1. Double click on the profile to open a new Window
+1. Set `Run command` to `export PS1='\342\204\226 [\u@\h \W]\\$ '`
+1. Double click on the new profile to open a new window
 
 Oh yeah!
+
+![Alt text](ss.png?raw=true "Example")
